@@ -11,7 +11,7 @@ public class JenkinsDemoApplication {
 
 	@GetMapping("/get")
 	public String message() {
-		return "welcome to jenkins demo";
+		return "welcome to merge-conflict";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsDemoApplication.class, args);
